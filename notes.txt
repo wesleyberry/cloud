@@ -1,0 +1,8 @@
+Orchestration enables an admin to codify the various steps and processes involved with workload deployment and management.
+    Automation invokes these steps without human intervention.
+    Orchestration is the use of programming technology to manage the interconnections and interactions
+
+Distributed systems - a system whose components are located on different networked computers
+    1) concurrency
+    2) same clock
+    3) independent failure of components
