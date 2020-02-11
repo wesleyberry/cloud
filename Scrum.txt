@@ -67,3 +67,38 @@ Workflow
     Sprint
     PSP
     Sprint Review/Retrospective
+
+-----------------------------------------------------------------
+Waterfall
+    Plan -> Build -> Test -> Review -> Deploy
+Roles
+1) Product Owner
+    Has image of what the product should be
+    Has requirements
+2) ScrumMaster
+    Manager for the team; day-to-day accomplishments
+3) Team
+    Develops and tests the product
+
+Ceremonies
+1) Sprint Planning
+    Set requirements; talk about user story: "As a <> I need <> to <>"
+2) Stand-ups
+    What I accomplished; what I need to accomplished; what I had trouble doing
+3) Sprint Reviews
+    What went well and what could be improved
+
+Artifacts
+1) Product Backlog
+    list of features
+2) Sprint backlogs
+    highest priority features
+3) Burndown chart
+    Features on a time scale
+
+Workflow
+    Product Backlog
+    Sprint Planning
+    Sprint Backlog
+    Potentially shipable product
+    Sprint Review/Retrospective
