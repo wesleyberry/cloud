@@ -40,8 +40,21 @@ Scrum roles
     defines features
 2) ScrumMaster
     Runs meetings/manager
+    Clearing obstacles
+    Establishing a good environment
+    Addressing team dynamics
+    Ensuring a good relationship between the team and product Owner
+    Protecting the team from outside interruptions and distractions
 3) team
-    developers who create/test the product
+    Developers who create/test the product
+    Cross-functional team (Everyone knows about doing everything: testing/development/deployment/etc...)
+
+The Scrum Board
+1) Story
+2) To Do 
+3) In Progress
+4) To Verify
+5) Done
 
 Artifacts
 1) Product Backlog - 
@@ -66,39 +79,9 @@ Workflow
     Sprint Backlog
     Sprint
     PSP
-    Sprint Review/Retrospective
-
+    Sprint Review
+    Retrospective
+        What worked well?
+        What could be improved?
+        What will we commit to doing in the next spring?
 -----------------------------------------------------------------
-Waterfall
-    Plan -> Build -> Test -> Review -> Deploy
-Roles
-1) Product Owner
-    Has image of what the product should be
-    Has requirements
-2) ScrumMaster
-    Manager for the team; day-to-day accomplishments
-3) Team
-    Develops and tests the product
-
-Ceremonies
-1) Sprint Planning
-    Set requirements; talk about user story: "As a <> I need <> to <>"
-2) Stand-ups
-    What I accomplished; what I need to accomplished; what I had trouble doing
-3) Sprint Reviews
-    What went well and what could be improved
-
-Artifacts
-1) Product Backlog
-    list of features
-2) Sprint backlogs
-    highest priority features
-3) Burndown chart
-    Features on a time scale
-
-Workflow
-    Product Backlog
-    Sprint Planning
-    Sprint Backlog
-    Potentially shipable product
-    Sprint Review/Retrospective
