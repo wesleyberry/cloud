@@ -27,7 +27,8 @@ Develop User story for a feature: name, description, screen and external documen
 Reduces waste (unnecessary features).
 Operate in sprints
 ----------------------------------------------------------------------------------
-Plan -> Build -> Test -> Review -> Deploy
+Waterfall
+    Plan -> Build -> Test -> Review -> Deploy
 1) Build MVP
 2) review and test
 3) ready to ship
@@ -65,4 +66,4 @@ Workflow
     Sprint Backlog
     Sprint
     PSP
-    Retrospective
+    Sprint Review/Retrospective
