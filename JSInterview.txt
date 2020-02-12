@@ -1,11 +1,11 @@
 Can you name two programming paradigms important for JS app developer?
-    1) Prototypal
-    2) Functional programming
+    * Prototypal
+    * Functional programming
 
 What is functional programming?
     * Produces programs by composing mathematical functions and avoids share state & mutable data
     * Started with Lisp
-    * Pure functions
+    * Pure functions (input -> output; does not affect outside scope)
     * Avoid side-effects
     * Simple function composition
     * First-class functions, higher order functions, functions as arguments/values
@@ -14,6 +14,7 @@ What is the difference between classical inheritance and prototypal inheritance?
     Class:
         * Hierarchy
         * Instances are instantiated via constructor functions with "new" keyword
+        * parent/child object taxonomies as a side-effect
     Prototypal:
         * Instances inherit directly from other objects
         * Typically instantiated via factory functions
@@ -42,10 +43,34 @@ When is prototypal inheritance an appropriate choice?
         Functional (creates closure for private state) - Enforces private state
 
 What does “favor object composition over class inheritance” mean?
-    * Avoids class hierarchies
+    * Focuses on what the program does instead of what it is
+    * Avoids tight coupling
     * Avoids the Gorilla banana problem
     * Code is more flexible
 
 What are two-way data binding and one-way data flow, and how are they different?
     Two-way binding means that the UI fields are bound to model data dynamically
     One way data flow means that the model is a single source of truth. Only the model can change the app's state
+        -  REACT
+
+What are the pros and cons of monolithic vs microservice architectures?
+    Monolithic architecture means your app is written as one cohesive unit of code. Components are designed to work together
+        Pros:
+            - Makes it easier to hook up Components
+            - Performance advantages
+        Cons: 
+            - Tightly coupled and entangled
+            - Difficult to understand
+    Microservice architecture means that your app is made up of lots of smaller, independent applications
+        Pros:
+            - Organization
+            - Performance (if you can isolate services)
+            - Scale better
+        Cons:
+            - cross-cutting concerns
+
+What is asynchronous programming, and why is it important in JavaScript?
+    * Engine runs in an event loop.
+    * Code keeps running without blocking the thread
+    * UIs are asynchronous by nature
+    * Important because it is a natural fit for user interfaces
