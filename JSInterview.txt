@@ -29,6 +29,8 @@ What are the pros and cons of functional programming vs object-oriented programm
     Pros of FP: 
         * Avoids shared state
         * Generally more reusable
+        * Focuses on what to do instead of how to do it
+        * Easy to scale
     Cons of FP:
         * Difficult to read
         * Steeper learning curve
@@ -67,7 +69,7 @@ What are the pros and cons of monolithic vs microservice architectures?
             - Performance (if you can isolate services)
             - Scale better
         Cons:
-            - cross-cutting concerns
+            - Lots of initial overhead
 
 What is asynchronous programming, and why is it important in JavaScript?
     * Engine runs in an event loop.
