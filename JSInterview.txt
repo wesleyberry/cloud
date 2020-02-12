@@ -1,0 +1,51 @@
+Can you name two programming paradigms important for JS app developer?
+    1) Prototypal
+    2) Functional programming
+
+What is functional programming?
+    * Produces programs by composing mathematical functions and avoids share state & mutable data
+    * Started with Lisp
+    * Pure functions
+    * Avoid side-effects
+    * Simple function composition
+    * First-class functions, higher order functions, functions as arguments/values
+
+What is the difference between classical inheritance and prototypal inheritance?
+    Class:
+        * Hierarchy
+        * Instances are instantiated via constructor functions with "new" keyword
+    Prototypal:
+        * Instances inherit directly from other objects
+        * Typically instantiated via factory functions
+    Prototypal inheritance is simpler & more flexible than class inheritance
+
+What are the pros and cons of functional programming vs object-oriented programming?
+    Pros of OOP:
+        * Easy to understand
+        * reads like a straight-forward set of instructions for computer
+    Cons of OOP:
+        * Depend on shared state which can be accessed at random by any number of functions
+    Pros of FP: 
+        * Avoids shared state
+        * Generally more reusable
+    Cons of FP:
+        * Difficult to read
+        * Steeper learning curve
+
+When is classical inheritance an appropriate choice?
+    Almost never because they are anti-pattern
+
+When is prototypal inheritance an appropriate choice?
+    Any time you need inheritance
+        Delegation - When you inherit from a delegate prototype, the new objects gets a reference to the prototype.
+        Concatenative/cloning - Process of copying the properties from one object to another without retaining a reference 
+        Functional (creates closure for private state) - Enforces private state
+
+What does “favor object composition over class inheritance” mean?
+    * Avoids class hierarchies
+    * Avoids the Gorilla banana problem
+    * Code is more flexible
+
+What are two-way data binding and one-way data flow, and how are they different?
+    Two-way binding means that the UI fields are bound to model data dynamically
+    One way data flow means that the model is a single source of truth. Only the model can change the app's state
