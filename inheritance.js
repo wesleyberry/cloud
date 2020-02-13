@@ -19,5 +19,20 @@ TechJob.prototype.constructor = TechJob;
 let softwareJob = new TechJob('JS Developer', true);
 let softwareJob2 = new TechJob('Java Developer', false);
 
-console.log(softwareJob.print());
-console.log(softwareJob2.print());
+// console.log(softwareJob.print());
+// console.log(softwareJob2.print());
+// --------------------------------------------
+let animal = {
+    eats: true,
+    walk() {
+        console.log('Animal Walk');
+    }
+};
+
+let rabbit = {
+    jumps: true,
+    __proto__: animal
+};
+
+rabbit.walk();
+// --------------------------------------------

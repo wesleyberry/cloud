@@ -1,0 +1,67 @@
+1) Define and explain 3 basic types of cloud services and the AWS products that are built based on them
+    * Compute 
+        - EC2 
+        - Elastic Beanstalk
+        - Lambda - function as a service
+        - Auto-scaling
+        - Lightsail
+    * Storage 
+        - S3 
+        - Glacier - archiving
+        - Elastic Block Storage - for EC2
+        - Elastic File System - for EC2
+    * Networking - controls and manage connectivity
+        - VPC
+        - CloudFront
+        - Route53 - domain resolution
+
+2) Difference between availability zone and region?
+    * Region is a geographic area
+    * availability zones reside within region and are isolated from eachother
+
+3) What is auto-scaling?
+    * automatically launch new instances
+    * reduces usage during low demand
+    * major reason for using AWS
+
+4) What is geo targeting and how do you setup geo targeting on CloudFront?
+    * Concept where you can show personalized content based on the audience in that area
+    * Can send that content through CloudFront
+        - CloudFront will detect the country
+
+5) What are the steps involved in a CloudFormation solution?
+    1) Create or use template using JSON/YAML from
+    2) Save code in an S3 bucket
+    3) Use AWS CloudFormation to create a stack on your template
+    4) Configure stack resources
+
+6) How do you upgrade or downgrade a system with near zero downtime?
+    1) Open EC2 console
+    2) Choose Operating system
+    3) Launch new instance
+    4) Install updates
+    5) Install applications
+    6) Test the instance
+    7) Deploy new instance
+
+7) What are the tools and techniques you can use in AWS to identify and correct if you are paying more than you should be?
+    * Check billing table
+    * Cost explorer
+    * AWS Budgets
+    * Cost allocation tags
+    
+8) Are any other alternative tools to log into the Cloud environment other than CONSOLE?
+    * Putty
+    * AWS CLI for Linux
+    * AWS CLI for Windows
+
+9) What services can be used to create a centralized logging solution?
+    * Amazon CloudWatch Logs
+    * Amazon Kinesis Firehouse
+    * Amazon S3
+    * Amazon Elastic Search
+
+10) What are the native Security Logging capabilities?
+    * provides history of API calls
+    * security analysis
+    * delivers log files to a designated S3 bucket
